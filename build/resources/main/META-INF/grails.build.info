@@ -1,0 +1,6 @@
+#Sat, 30 Jun 2018 15:28:37 -0300
+
+info.app.version=0.1
+info.app.name=AppPrincipal
+grails.env=development
+info.app.grailsVersion=3.3.2
