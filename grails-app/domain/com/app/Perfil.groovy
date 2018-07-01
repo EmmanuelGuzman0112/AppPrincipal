@@ -15,4 +15,6 @@ class Perfil
  	}
 
  	static hasMany = [ instrumentomusico : InstrumentoMusico, generoMusical : GeneroMusical ]
+
+ 	String toString() { return usuario}
  }

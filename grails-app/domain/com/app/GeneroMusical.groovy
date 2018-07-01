@@ -12,4 +12,6 @@ class GeneroMusical
 		nombre unique: true, nullable: false
 	 	perfiles nullable: true
  	}
+
+ 	String toString() { return nombre}
 }

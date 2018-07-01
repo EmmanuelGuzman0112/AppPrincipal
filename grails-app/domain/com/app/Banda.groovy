@@ -10,4 +10,6 @@ class Banda
     {
     	nombre unique: true, nullable: false
     }
+
+    String toString() { return nombre}
 }

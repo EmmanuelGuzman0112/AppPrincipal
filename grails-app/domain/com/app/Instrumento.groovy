@@ -10,4 +10,6 @@ class Instrumento
 	{
 		nombre unique: true, nullable: false
  	}
+
+ 	String toString() { return nombre}
 }

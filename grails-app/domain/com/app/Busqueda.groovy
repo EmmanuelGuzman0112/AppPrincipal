@@ -11,7 +11,9 @@ class Busqueda
     {
     	banda nullable: false
     	instrumento nullable: false
-    	experienciaAnios nullable: false
+    	experiencia nullable: false
     	fechaExp nullable: false
     }
+
+    String toString() { return banda}
 }

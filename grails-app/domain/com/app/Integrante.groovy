@@ -9,4 +9,6 @@ class Integrante
 	 usuario nullable: false
 	 rol nullable: false
  	}
+
+ 	String toString() { return usuario}
 }

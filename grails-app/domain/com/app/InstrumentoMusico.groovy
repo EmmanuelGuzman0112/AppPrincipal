@@ -12,4 +12,6 @@ class InstrumentoMusico
 		instrumento nullable: false
 		experiencia nullable: false
 	}
+
+	String toString() { return perfil}
 }

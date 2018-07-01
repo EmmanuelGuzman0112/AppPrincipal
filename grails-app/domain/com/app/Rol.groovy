@@ -11,4 +11,6 @@ class Rol
 	 nombre unique: true, nullable: false
 	 integrante nullable: true
  	}
+
+ 	String toString() { return nombre}
 }

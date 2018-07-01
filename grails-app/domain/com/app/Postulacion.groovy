@@ -13,4 +13,6 @@ class Postulacion
     	generoMusical nullable: false
     	instrumento nullable: false
     }
+
+    String toString() { return descripcion}
 }

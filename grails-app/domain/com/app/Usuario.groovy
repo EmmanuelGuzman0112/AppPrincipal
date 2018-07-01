@@ -18,4 +18,7 @@ class Usuario
 
 	 static hasOne = [ perfil : Perfil]
 	 static hasMany = [ integrante : Integrante, postulacion : Postulacion ]
+
+	 String toString() { return mail}
+
 }
