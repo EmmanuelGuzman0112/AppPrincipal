@@ -1,0 +1,10 @@
+com.app.$BandaServiceImplementation
+com.app.$BusquedaServiceImplementation
+com.app.$GeneroMusicalServiceImplementation
+com.app.$InstrumentoMusicoServiceImplementation
+com.app.$InstrumentoServiceImplementation
+com.app.$IntegranteServiceImplementation
+com.app.$PerfilServiceImplementation
+com.app.$PostulacionServiceImplementation
+com.app.$RolServiceImplementation
+com.app.$UsuarioServiceImplementation
