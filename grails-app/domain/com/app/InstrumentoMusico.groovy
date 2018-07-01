@@ -10,6 +10,6 @@ class InstrumentoMusico
 	{
 		perfil nullable: false
 		instrumento nullable: false
-		experienciaAnios nullable: false
+		experiencia nullable: false
 	}
 }

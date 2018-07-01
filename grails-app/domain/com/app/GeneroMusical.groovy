@@ -4,8 +4,8 @@ class GeneroMusical
 {
 	String nombre
 
-	static hasMany = [ perfiles : Perfil ]
-	static belongsTo = [ Usuario, Perfil ] //P
+	static hasMany = [ perfiles : Perfil , postulacion : Postulacion ]
+	static belongsTo = [ Usuario, Perfil ]
 
     static constraints =
 	{

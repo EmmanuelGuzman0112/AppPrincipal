@@ -6,7 +6,6 @@ class Usuario
 	 String apellido
 	 String mail
 	 String password
-	 byte[] foto
 
 	 static constraints =
 	 {
@@ -14,10 +13,9 @@ class Usuario
 		 apellido nullable: false
 		 mail unique: true, nullable: false
 		 password nullable: false
-		 foto nullable: true
 		 perfil nullable: true
 	 }
 
 	 static hasOne = [ perfil : Perfil]
-	 static hasMany = [ integrante : Integrante ]
+	 static hasMany = [ integrante : Integrante, postulacion : Postulacion ]
 }

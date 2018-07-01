@@ -4,10 +4,10 @@ class Instrumento
 {
     String nombre
 
-    static hasMany = [ instrumentomusico : InstrumentoMusico, busqueda : Busqueda ]
+    static hasMany = [ instrumentomusico : InstrumentoMusico, busqueda : Busqueda, postulacion : Postulacion ]
 
     static constraints =
 	{
-	 nombre unique: true, nullable: false
+		nombre unique: true, nullable: false
  	}
 }
