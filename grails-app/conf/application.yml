@@ -2,7 +2,7 @@
 grails:
     profile: web
     codegen:
-        defaultPackage: tpprueba2
+        defaultPackage: ejercicio4
     spring:
         transactionManagement:
             proxies: false
@@ -94,15 +94,16 @@ hibernate:
 dataSource:
     pooled: true
     jmxExport: true
-    driverClassName: org.h2.Driver
-    username: sa
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
     password: ''
 
 environments:
     development:
         dataSource:
             dbCreate: create-drop
-            url: jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
+            dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+            url: jdbc:mysql://localhost:3306/gra
     test:
         dataSource:
             dbCreate: update

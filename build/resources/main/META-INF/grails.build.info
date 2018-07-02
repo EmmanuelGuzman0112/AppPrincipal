@@ -1,6 +1,6 @@
-#Sun, 01 Jul 2018 19:32:34 -0300
+#Sun, 01 Jul 2018 22:35:09 -0300
 
 info.app.version=0.1
-info.app.name=AppPrincipal-master
+info.app.name=AppPrincipal
 grails.env=development
 info.app.grailsVersion=3.3.2
